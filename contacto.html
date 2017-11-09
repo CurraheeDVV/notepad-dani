@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <title>HTML 5</title>
+ <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+
+
+	<img src="img\logog.jpg" alt="logotipo" title="logotipo" id="logog"  /> <br />
+
+
+	<div class="menu">
+			<div class="homepadding homes">
+				<a href="index.html">Home</a><br />
+			</div>
+			<div class="homepadding desc">
+				<a href="Descargas.html">Descargas</a><br />
+			</div>
+			<div class="homepadding">
+				<a href="Enlacesexternosdeinteres.html">Enlaces externos de interés</a><br />
+			</div>
+			<div class="homepadding">
+				<a href="instalar.html">Manual de Instalación.</a><br />
+			</div>
+			<div class="homepadding">
+				<a href="login.html">Acceder/Registrarse</a><br />
+			</div>
+			<div class="homepadding">
+				<a href="contacto.html">Asistencia técnica</a>
+			</div>
+
+		</div>
+
+
+
+	<div class="texto contacto">
+
+		<h2 id="titulo3">Reportar aquí cualquier sugerencia o incidencia con nuetra página.</h2>
+
+		<form action="http://inertinc.com/cursos/cursoweb2015/evaluf3/" method="post">
+
+		<div class="contactopadding">
+			<div class="contactopadding">
+				<label for="Nickname">Nickname</label>
+			</div>
+			<div class="contactopadding">
+				<input type="text" name="Nickname"  id="Nickname"> <br />
+			</div>
+		</div>
+		<div class="contactopadding">
+			<div class="contactopadding">
+				<label for="email">E-mail:</label>
+			</div>
+			<div class="contactopadding">
+				<input type="text" name="email"  id="email"> <br />
+			</div>
+		</div>
+		<div class="contactopadding">
+			<div class="contactopadding">
+				<label for="Comentario">Comentario:</label>
+			</div>				
+			<div class="contactopadding">
+				<textarea name="Comentario" id="Comentario"></textarea>
+			</div>
+		</div>
+		
+		<input type="hidden" name="emailalumno" value="danielvalerov@gmail.com">
+		<input type="hidden" name="plantillacorreo" value="<!DOCTYPE html>
+			<html lang=&quot;es&quot;>
+			<head>
+			<meta charset=&quot;utf-8&quot; />
+			<title>HTML 5</title>
+			<link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;estilo.css&quot; />
+			</head>
+			<body>
+		
+			<p>
+				El usuario %Nombreusuario% ha contactado contigo y te ha dejado este mensaje.</p>
+			<p> El mensaje es el siguiente: <br />
+			%comentario%
+			</p>
+		
+			</body>">
+		<input type="hidden" name="clavesecreta" value="3a881f46d2"> <br />
+		
+		<button id="botonenviarcontacto" type="submit">Enviar</button>
+		
+		
+		</form>
+	</div> 
+	<div class="volver">
+		<a 
+			href="#logog">Volver al inicio
+		</a>
+	</div>
+	<address id="address">  
+		<strong>
+			Autor
+		</strong>: Daniel Valero <br /> Para más información, datos de contacto <br /> 
+		<strong>
+			Mail: danielvalerov@gmail.com 
+		</strong>. <br />
+		<strong>
+			Telf: +34 627162405
+		</strong>
+	</address>
+
+ 
+</body>
+</html>
